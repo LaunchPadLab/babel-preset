@@ -1,0 +1,12 @@
+{
+  "name": "@launchpadlab/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "dpikt",
+  "dependencies": {
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  }
+}
