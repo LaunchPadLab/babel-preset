@@ -9,11 +9,11 @@ Shareable babel presets to use across projects.
 
 // To use a specific config
 {
-  presets: ['@launchpadlab/babel-preset/react'],
+  presets: ['@launchpadlab/babel-preset/es6'],
 }
 
 // To use the default config (react)
 {
-  presets: ['@launchpadlab'],
+  presets: ['@launchpadlab/babel-preset'],
 }
 ```
