@@ -1,5 +1,5 @@
 {
-  "name": "@launchpadlab/eslint-config",
+  "name": "@launchpadlab/babel-preset",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
