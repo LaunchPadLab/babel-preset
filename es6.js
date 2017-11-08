@@ -1,10 +1,11 @@
+// Technically es6+
+
 module.exports = {
   'presets': [
     'env',
+    'stage-0',
   ],
-  'plugins': {
+  'plugins': [
     ['lodash', { 'id': ['lodash', 'recompose'] }],
-    'transform-export-extensions',
-    'transform-object-rest-spread',
-  },
+  ],
 }

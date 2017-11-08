@@ -1,6 +1,6 @@
 module.exports = {
   'presets': [
-    require('./base'),
+    require('./es6'),
     'react',
   ],
 }
