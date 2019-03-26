@@ -1,5 +1,8 @@
-module.exports = {
-  'presets': [
-    require('./react'),
-  ],
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    'presets': [
+      require('./react'),
+    ],
+  }
 }
