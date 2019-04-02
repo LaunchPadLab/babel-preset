@@ -17,3 +17,7 @@ Shareable babel presets to use across projects.
   presets: ['@launchpadlab/babel-preset'],
 }
 ```
+
+
+## Migration Guides
+- [v2.0.0](migration-guides/v2.0.0.md)
