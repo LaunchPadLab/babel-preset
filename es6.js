@@ -1,10 +1,10 @@
 // Technically es6+
 
-module.exports = function (api) {
+module.exports = function (api, options) {
   api.cache(true)
   return {
     'presets': [
-      '@babel/env',
+      ['@babel/env', options.env ],
     ],
     'plugins': [
       // Cherry-pick imports
