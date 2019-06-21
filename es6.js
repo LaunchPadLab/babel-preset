@@ -1,6 +1,6 @@
 // Technically es6+
 
-module.exports = function (api, options) {
+module.exports = function (api, options={}) {
   api.cache(true)
   return {
     'presets': [
