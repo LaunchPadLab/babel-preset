@@ -1,8 +1,8 @@
-module.exports = function (api) {
+module.exports = function (api, options={}) {
   api.cache(true)
   return {
     'presets': [
-      require('./es6'),
+      [ require('./es6'), options ],
       '@babel/react',
     ],
     'plugins': [
