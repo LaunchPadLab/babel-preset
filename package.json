@@ -1,6 +1,6 @@
 {
   "name": "@launchpadlab/babel-preset",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "main": "index.js",
   "license": "MIT",
   "author": "dpikt",
@@ -26,8 +26,7 @@
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-plugin-lodash": "^3.3.4",
-    "babel-plugin-transform-imports": "^1.5.0"
+    "babel-plugin-lodash": "^3.3.4"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0"
